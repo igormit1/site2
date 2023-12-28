@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px; /* Ajuste o espaçamento conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    max-width: 130px; /* ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Alteração para 'flex-end' para alinhar à direita */
+    margin-left: auto; /* Adição para ajustar a margem à esquerda */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.2em;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white; /* adicione uma linha inferior ao passar o mouse */
+}
+
+.button-primary {
+    margin: 40px;
+    padding: 20px;
+    background-color: #fcb900;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 22px; /* Ajuste o tamanho da fonte conforme necessário */
+    border-radius: 10px;
+
+}
+
+.button-secondary {
+    margin: 40px;
+    padding: 20px;
+    background-color: rgb(136, 56, 56);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+
+}
+
+.button-primary:hover {
+    background-color: #ffd344; /* Change the background color for the primary button on hover */
+}
+
+.button-secondary:hover {
+    background-color: rgb(145, 36, 36); /* Change the background color for the secondary button on hover */
+}
+
+/* Estilo para as seções */
+section {
+    padding: 20px 20px 0 20px;
+    margin: 0;
+    border-bottom: 1px solid black; /* Adição de uma linha preta na parte inferior */
+}
+
+/* Estilo para os títulos das seções */
+h2 {
+    color: #333;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#contato {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+
+  .small-image {
+    width: 50%; /* You can adjust the percentage to your preference */
+    height: auto; /* This ensures the aspect ratio is maintained */
+    max-width: 450px; /* Set a maximum width if needed */
+    display: block; /* This removes any extra space below the image */
+    margin: 0; /* Center the image */
+    
+}
+
+.ppp {
+    margin-left: 100px; /* Adapte a margem conforme necessário */
+    float: left; /* Alinha o texto à direita da imagem */
+    font-size: 20px;
+}
+
+.small-imagem {
+    width: 50%;
+    height: auto;
+    max-width: 532px;
+    margin-left: auto; /* Alterado para 0 para alinhar à esquerda */
+    margin-right: auto; /* Alterado para auto para alinhar à direita */
+    margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+
+}
+
+.small-imagemm {
+    width: 50%;
+    height: auto;
+    max-width: 532px;
+    margin-left: auto; /* Alterado para 0 para alinhar à esquerda */
+    margin-right: 0; /* Alterado para auto para alinhar à direita */
+    display: block; 
+    margin-bottom: 15px;
+}
+
+.ppp {
+    margin-left: 20px; /* Ajuste a margem conforme necessário */
+    font-size: 20px;
+    float: left; /* Alterado para left para alinhar à esquerda */
+    clear: both;
+}
+
+
+.container {
+    display: flex; /* Use flexbox para alinhar os itens lado a lado */
+    align-items: center; /* Centraliza verticalmente os itens no contêiner */
+    border-bottom: 1px solid black;
+}
+
+.pppp {
+    clear: both;
+    margin-right: 600px; /* Adapte a margem conforme necessário */
+    font-size: 20px;
+}
